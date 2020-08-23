@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*postion css*/
+
+.outerbox{
+	height: 150px;
+	width: 270px;
+	background-color: coral;
+	position: relative;
+}
+.innerbox{
+	height: 50px;
+	width: 50px;
+	background-color: coral;
+	position: absolute;
+	bottom: -25px;
+	left: 150px;
+	transform: rotate(45deg); 
+}
